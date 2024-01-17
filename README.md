@@ -1,19 +1,19 @@
-PHP Web Application - User Authentication and Notes Management
-Overview
+#PHP Web Application - User Authentication and Notes Management
+###Overview
 This PHP web application serves as a basic demonstration of user authentication and CRUD (Create, Read) operations with a MySQL database. The project includes the following pages:
 
-Home Page:
+##Home Page:
 
 Displays links to Signup, Login, and Dashboard pages.
-Signup Page:
+##Signup Page:
 
 Allows users to create a new account with a username and password.
 Basic validation is implemented; however, password hashing is not used in this version.
-Login Page:
+##Login Page:
 
 Provides a simple login form.
 Redirects users to the Dashboard upon successful login.
-Dashboard:
+##Dashboard:
 
 Welcomes the user with their session username.
 Features an input field to enter a short note.
