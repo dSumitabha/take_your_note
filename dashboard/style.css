@@ -1,0 +1,64 @@
+:root{
+    --color1 : #ECF4D6;
+    --color2 : #9AD0C2;
+    --color3 : #2D9596;
+    --color4 : #265073;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background : var(--color4);
+    color : #fff;
+    padding: 10px;
+    height: 25dvh;
+}
+a {
+    text-decoration: none;
+}
+button {
+    display: block;
+    background: var(--color4);
+    padding: 5px;
+    border: none;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+.container {
+    background: var(--color1);
+    width: 100%;
+    min-height: 75dvh;
+    padding: 5dvh 1vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+form input[type="text"] {
+    width : 70vw;
+    padding : 5px 5px;
+}
+form input[type="submit"] {
+    width :20vw;
+    padding : 5px 0;
+    background : var(--color4);
+    color : #fff;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid var(--color3);
+    text-align: left;
+    padding: 8px;
+    color : var(--color4);
+}
+
+th {
+    background-color: var(--color3);
+}

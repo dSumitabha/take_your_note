@@ -1,0 +1,33 @@
+:root{
+    --color1 : #ECF4D6;
+    --color2 : #9AD0C2;
+    --color3 : #2D9596;
+    --color4 : #265073;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: var(--color1);
+    width: 100%;
+    height:  100dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: var(--color4);
+}
+a {
+    display: block;
+    margin: 20px 0 20px 0;
+}
+button {
+    width: 20vw;
+    background-color: var(--color3);
+    color: #fff;
+    padding: 5px 0;
+}
